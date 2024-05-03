@@ -4,7 +4,7 @@
 
 This projects is a portfolio page created with React and Vite. 
 
-URL - 
+URL - https://663544f7822f944cfa1cb1a3--lighthearted-fox-345e08.netlify.app/
 
 
 ## Table of Contents
@@ -22,6 +22,8 @@ URL -
 ## Installation
 
 No installation required. Simply visit the URL below:
+
+https://663544f7822f944cfa1cb1a3--lighthearted-fox-345e08.netlify.app/
 
 ## Usage
 
