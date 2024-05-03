@@ -23,8 +23,6 @@ URL -
 
 No installation required. Simply visit the URL below:
 
-
-
 ## Usage
 
 Clone this repo and save it locally to your computer. Open terminal, git bash, or whichever command line interface you are using and run the following command:
