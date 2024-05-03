@@ -1,0 +1,25 @@
+[
+    {
+      "title": "PWA Text Editor",
+      "imageSrc": "Projects/TextEditor.png",
+      "description": "This projects is a PWA text editor. that utilizes Express.js, Node.js, IndexedDB, and Webpack.",
+      "skills": ["Express", "NodeJS", "Webpack", "IndexedDB", "Javascript", "HTML", "CSS"],
+      "demo": "https://jate-text-editor-g7v1.onrender.com/",
+      "source": "https://github.com/jmayfield777/Progressive-Web-Applications-PWA-Challenge-Text-Editor"
+    },
+    {
+      "title": "Brewery Search Web App",
+      "imageSrc": "Projects/BreweryFinder.png",
+      "description": "This application is a brewery finder.",
+      "skills": ["Javascript", "HTML", "CSS"],
+      "demo": "https://gpayabyab.github.io/Project-1/",
+      "source": "https://github.com/gpayabyab/Project-1"
+    },
+    {
+      "title": "Note Taking App",
+      "imageSrc": "Projects/NoteTakingApp.png",
+      "description": "This is app that allows to take notes on the webpage.",
+      "skills": ["Express", "Javascript"],
+      "source": "https://github.com/jmayfield777/Note-Taking-App-with-Express.js"
+    }
+  ]
