@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-
+import { emailValidator } from "../utils/emailValidator";
 
 export default function Contact() {
 
