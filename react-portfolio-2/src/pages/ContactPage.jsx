@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import { emailValidator } from "../utils/emailValidator";
 
+import styles from "./ContactPage.module.css";
+
 export default function Contact() {
 
   const [ formState, setFormState ] = useState({
@@ -16,7 +18,7 @@ export default function Contact() {
 
   function formHandler(e) {
     if (e.target.name === "email") {
-      const valid = EmailValidator(e.target.value);
+      const valid = emailValidator(e.target.value);
       if (!valid) {
         setErrors("Please enter a valid email.");
       } else {
@@ -35,21 +37,21 @@ export default function Contact() {
   }
 
   return (
-    <section>
-      <h2>Contact Me:</h2>
+    <section className={styles.container}>
+      <h2 className={styles.title}>Contact Me:</h2>
       <br></br>
-      <form>
+      <form className={styles.formContainer}>
         <div>
-          <label for="name">Name: </label>
-          <input type="text" id="name" name="name" defaultValue={name} onBlur={formHandler} />
+          <label className={styles.label} for="name">Name: </label>
+          <input className={styles.input} type="text" id="name" name="name" defaultValue={name} onBlur={formHandler} />
         </div>
         <div>
-          <label for="email">Email: </label>
-          <input type="email" id="email" name="email" defaultValue={email} onBlur={formHandler}/>
+          <label className={styles.label} for="email">Email: </label>
+          <input className={styles.input} type="email" id="email" name="email" defaultValue={email} onBlur={formHandler}/>
         </div>
         <div>
-          <label for="message">Message: </label>
-          <textarea id="message" name="message" defaultValue={message} onBlur={formHandler}></textarea>
+          <label className={styles.label} for="message">Message: </label>
+          <textarea className={styles.textarea} id="message" name="message" defaultValue={message} onBlur={formHandler}></textarea>
         </div>
         { errors && (
           <div>
@@ -58,7 +60,7 @@ export default function Contact() {
         )}
 
         <div>
-          <button type="submit">Submit</button>
+          <button className={styles.submitBtn} type="submit">Submit</button>
         </div>
       </form>
     </section>
