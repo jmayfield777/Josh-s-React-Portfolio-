@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from './AboutPage.module.css';
-import { getImage } from '../utils/getImageHelper';
+import { getImage } from '../utils/getImageHelper.js';
 
 export default function About() {
   return (

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { EmailValidator } from '../../utils/';
 
-import styles from './ContactPage.module.css';
+
 
 export default function Contact() {
 
