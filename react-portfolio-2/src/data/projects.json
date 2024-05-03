@@ -18,8 +18,29 @@
     {
       "title": "Note Taking App",
       "imageSrc": "Projects/NoteTakingApp.png",
-      "description": "This is app that allows to take notes on the webpage.",
+      "description": "This app allows the user to take notes on the webpage.",
       "skills": ["Express", "Javascript"],
       "source": "https://github.com/jmayfield777/Note-Taking-App-with-Express.js"
+    },
+    {
+      "title": "README Generator",
+      "imageSrc": "Projects/ReadmeGenerator.png",
+      "description": "This is a node app that generates README.md files for the user",
+      "skills": ["NodeJS", "Javascript"],
+      "source": "https://github.com/jmayfield777/Node.joshLinks to an external site."
+    },
+    {
+      "title": "Workday Scheduler",
+      "imageSrc": "Projects/WorkDayScheduler.png",
+      "description": "This is a web app that serves as a digital day planner for the user",
+      "skills": ["localStorage", "Javascript", "HTML", "CSS"],
+      "source": "https://github.com/jmayfield777/Josh-s-Work-Schedule- to an external site."
+    },
+    {
+      "title": "Password Generator",
+      "imageSrc": "Projects/PasswordGenerator.png",
+      "description": "This is a web app that serves as a password generator for the user",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "source": "https://github.com/jmayfield777/Password-Generation-StationLinks to an external site. to an external site."
     }
   ]
