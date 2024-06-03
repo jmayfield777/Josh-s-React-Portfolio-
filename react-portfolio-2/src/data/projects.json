@@ -22,13 +22,5 @@
       "skills": ["Javascript", "HTML", "CSS", "React", "MongooseODM", "Express.js", "Apollo Server/Client", "Bootstrap"],
       "demo": "https://mern-challenge-book-search-engine-9ac8.onrender.com/",
       "source": "https://github.com/jmayfield777/MERN-Challenge-Book-Search-Engine"
-    },
-    {
-      "title": "PWA Text Editor",
-      "imageSrc": "Projects/TextEditor.png",
-      "description": "This project is a PWA text editor.",
-      "skills": ["Express.js", "Node.js", "Webpack", "IndexedDB", "Javascript", "HTML", "CSS"],
-      "demo": "https://jate-text-editor-g7v1.onrender.com/",
-      "source": "https://github.com/jmayfield777/Progressive-Web-Applications-PWA-Challenge-Text-Editor"
     }
   ]
