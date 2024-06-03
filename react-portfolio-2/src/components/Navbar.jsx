@@ -24,7 +24,7 @@ export default function Navbar() {
         onClick={() => setMenuOpen(!menuOpen)}
       />
       <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-      onClick={() => setMenuOpen(false)}
+      onClick={() => setMenuOpen(!menuOpen)}
       >
         <li>
           <Link
@@ -48,14 +48,6 @@ export default function Navbar() {
             className={currentPage === "/Projects" ? "nav-link active" : "nav-link"}
           >
             Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/Resume"
-            className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}
-          >
-            Resume
           </Link>
         </li>
         <li>
